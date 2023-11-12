@@ -1,0 +1,28 @@
+type:GenericCrafter
+name:"Crystal farm"
+health:200
+size:2
+hasItems:true
+research:"Plata crafter"
+craftTime:250
+category:"crafting"
+updateEffect:"smoke"
+idleSound:"smelter"
+itemCapacity:5
+outputItem: { "item": "Crystal creation", "amount": 1}
+research:"Plata crafter v2"
+requirements:[
+{item:"beryllium",amount:10}
+{item:"carbide",amount:65}
+{item:"Plata v2",amount:20}
+]
+outputItem: {item: "Crystal creation", amount:1}
+consumes:{
+power:2
+items:[
+ oxide/5
+]
+liquids:[
+ cyanogen/1.5
+]
+}

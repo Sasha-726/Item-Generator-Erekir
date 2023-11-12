@@ -1,0 +1,21 @@
+type:GenericCrafter
+name:"Phase-fabric generat"
+destruction:Generates beryllium.
+health:50
+size:2
+hasItems:true
+craftTime:300
+idleSound:"smelter"
+updateEffect:"smoke"
+category:"production"
+itemCapacity:1
+research: "Plata crafter v2"
+consumes:{
+power:5
+}
+requirements:[
+{item:"phase-fabric",amount:1000}
+{item:"Plata v2",amount:15}
+{item:"Crystal creation",amount:20}
+]
+outputItem:{item:"phase-fabric",amount:1}

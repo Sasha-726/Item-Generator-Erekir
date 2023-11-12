@@ -1,0 +1,6 @@
+type:"item"
+name:"Crystal creation"
+description:Creates items out of nothing.
+research":"Crystal farm"
+charge:1
+color:"#7B68EE"

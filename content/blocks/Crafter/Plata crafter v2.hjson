@@ -1,0 +1,26 @@
+type:GenericCrafter
+name:"Plata crafter v2"
+description:Creates platu v2.
+health:200
+size:2
+hasItems:true
+craftTime: 250
+idleSound:"smelter"
+updateEffect:"smoke"
+category:"crafting"
+itemCapacity:25
+research:"carbide crucible"
+requirements:[
+{item:"beryllium",amount:65}
+{item:"carbide",amount:100}
+{item:"tungsten",amount:20}
+]
+consumes:{
+power:2
+items:[
+ beryllium/25
+ carbide/5
+ tungsten/10
+]
+}
+outputItem:{item:"Plata v2",amount:1}

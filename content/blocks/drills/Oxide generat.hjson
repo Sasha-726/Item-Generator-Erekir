@@ -1,0 +1,21 @@
+type:GenericCrafter
+name:"Oxide generat"
+description:Generates oxide.
+health:50
+size:2
+hasItems:true
+craftTime:300
+idleSound:"smelter"
+updateEffect:"smoke"
+category:"production"
+itemCapacity:1
+research: "Tungsten generat"
+consumes:{
+power:5
+}
+requirements:[
+{item:"oxide",amount:1000}
+{item:"Plata v2",amount:15}
+{item:"Crystal creation",amount:20}
+]
+outputItem:{item:"oxide",amount:1}

@@ -1,0 +1,6 @@
+type:"item"
+name: "Plata"
+description:Used in all generators and crystal farms.
+research:"Plata crafter"
+flammability:0.2
+color:"37544F"

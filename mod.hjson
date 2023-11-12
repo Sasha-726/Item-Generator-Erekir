@@ -1,0 +1,9 @@
+name: "item-generator-erekir"
+displayName: "Item Generator (Erekir)"
+author: Toxopid
+description: "This is too cheating mod, I do not recommend using it in a career"
+version: "1.1"
+minGameVersion: "145.1"
+dependencies: [ ]
+hideBrowser: false
+hidden: false
